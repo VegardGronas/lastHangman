@@ -1,0 +1,23 @@
+#buttons{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+
+.buttons{
+    background-color: bisque;
+    padding: 10px;
+    border: solid black 1px;
+}
+
+.buttons:hover{
+    background-color: greenyellow;
+    padding: 10px;
+    border: solid black 1px;
+    cursor: pointer;
+}
+
+.hiddenword{
+    display: grid;
+    justify-content: center;
+}
